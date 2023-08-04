@@ -1,15 +1,9 @@
 
-x=input("Enter marks of english:")
-y=input("Enter marks of maths:")
+x=int(input("Enter the marks :"))
 
+if x>=50:
 
-
-
-if (x+y)>='50':
     print("Pass")
 
-elif (x+y)<='50':
-    print("Fail")
-
 else:
-    print("not valid number")
+    print("Fail")
